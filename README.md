@@ -103,7 +103,7 @@ These recommendations are designed to be practical and actionable, helping build
 ![app](https://github.com/Farhan-Fadillah/picture_list/blob/48306e7e53efbc214b167c9a2cf404d6a536fb8a/app%20building%20consump%20result.png)
 
 1. Historical Energy Consumption Visualization: Users can view a time series chart of past energy consumption data to understand trends.
-2. nteractive Inputs: Time, temperature, and activity sliders allow dynamic prediction.
+2. Interactive Inputs: Time, temperature, and activity sliders allow dynamic prediction.
 3. Model Selection: Users can compare predictions from different models.
 
 # SUMMARY
