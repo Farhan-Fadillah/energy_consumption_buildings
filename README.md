@@ -1,4 +1,5 @@
-# energy_consumption_buildings
+# Energy Consumption Building Predictor App with Machine Learning
+
 Project Title: Energy Consumption Prediction in Buildings Using Machine Learning
 
 Buildings are among the largest consumers of energy worldwide, accounting for a significant portion of electricity use in both residential and commercial sectors. A major challenge in energy management is the ability to anticipate consumption patterns in response to dynamic environmental conditions and human activity. Traditional methods of forecasting energy demand often fail to incorporate real-time and granular variables such as user activity and ambient temperature.
@@ -12,6 +13,8 @@ Benefits and Impact:
 4. Scalability: The developed models can be adapted to different types of buildings and integrated with energy management systems in smart cities.
 
 This project focuses on the development and evaluation of machine learning models to predict building energy consumption based on key influencing factors such as time of day, user activity level, and ambient temperature. The primary goal is to create a predictive system that can accurately estimate hourly energy usage, enabling more efficient energy management and planning.
+
+![streamlit](https://github.com/Farhan-Fadillah/picture_list/blob/48306e7e53efbc214b167c9a2cf404d6a536fb8a/app%20building%20consump.png)
 
 Three different modeling approaches will be explored:
 Linear Regression – to provide a simple, interpretable baseline.
@@ -71,9 +74,11 @@ Here is a step-by-step flow of how the project works, from data input to predict
   - If predicted energy consumption exceeds a threshold (e.g., 100 kWh), the system triggers an alert to provides actionable recommendations to reduce energy consumption.
 
 # Flow Diagram
-
+![flow](https://github.com/Farhan-Fadillah/picture_list/blob/48306e7e53efbc214b167c9a2cf404d6a536fb8a/FLOW%20PROJECT%20ENERGY%20BUILDING.png)
 
 # Model Implementation Details
+
+![model](https://github.com/Farhan-Fadillah/picture_list/blob/48306e7e53efbc214b167c9a2cf404d6a536fb8a/modeling%20for%20energy%20building%20ML.png)
 
 The neural network is trained for 50 epochs with a batch size of 10. RMSE is calculated on the test set to measure prediction accuracy. The user can select any model for prediction in the app.
 
@@ -92,6 +97,8 @@ Recommendations Provided:
 These recommendations are designed to be practical and actionable, helping building managers or occupants reduce energy consumption effectively.
 
 # Additional Features in the Streamlit App
+
+![app](https://github.com/Farhan-Fadillah/picture_list/blob/48306e7e53efbc214b167c9a2cf404d6a536fb8a/app%20building%20consump%20result.png)
 
 1. Historical Energy Consumption Visualization: Users can view a time series chart of past energy consumption data to understand trends.
 2. nteractive Inputs: Time, temperature, and activity sliders allow dynamic prediction.
