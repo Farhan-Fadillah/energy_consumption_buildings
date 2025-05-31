@@ -4,6 +4,8 @@ Project Title: Energy Consumption Prediction in Buildings Using Machine Learning
 
 Buildings are among the largest consumers of energy worldwide, accounting for a significant portion of electricity use in both residential and commercial sectors. A major challenge in energy management is the ability to anticipate consumption patterns in response to dynamic environmental conditions and human activity. Traditional methods of forecasting energy demand often fail to incorporate real-time and granular variables such as user activity and ambient temperature.
 
+![building](https://github.com/Farhan-Fadillah/picture_list/blob/a7c90e036b092a478a2f350370fd93d0af59b829/building.jpg)
+
 With the advent of smart buildings and IoT-enabled sensors, large volumes of time-stamped data can now be collected, making it feasible to leverage machine learning for real-time energy prediction. This project aims to utilize this data to build models that can learn from historical trends and adapt to varying conditions, ultimately contributing to smarter and more sustainable energy use.
 
 Benefits and Impact:
