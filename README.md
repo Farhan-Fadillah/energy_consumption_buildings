@@ -73,6 +73,34 @@ Here is a step-by-step flow of how the project works, from data input to predict
 # Flow Diagram
 
 
+# Model Implementation Details
+
+The neural network is trained for 50 epochs with a batch size of 10. RMSE is calculated on the test set to measure prediction accuracy. The user can select any model for prediction in the app.
+
+# Prediction Alert and Recommendation System
+
+Alert Logic:
+•	A maximum energy consumption threshold is set (e.g., 100 kWh).
+•	If the predicted consumption exceeds this threshold, the system triggers a warning.
+
+Recommendations Provided:
+1.	Reduce AC temperature: Lowering the air conditioning temperature reduces energy use.
+2.	Turn off unused electronic devices: Minimizes unnecessary power consumption.
+3.	Adjust user activity levels: Encourage reducing or relocating activities to more energy-efficient areas.
+4.	Check lighting systems: Ensure lights are off in unoccupied spaces.
+These recommendations are designed to be practical and actionable, helping building managers or occupants reduce energy consumption effectively.
+
+# Additional Features in the Streamlit App
+
+•	Historical Energy Consumption Visualization: Users can view a time series chart of past energy consumption data to understand trends.
+•	Interactive Inputs: Time, temperature, and activity sliders allow dynamic prediction.
+•	Model Selection: Users can compare predictions from different models.
+
+# SUMMARY
+
+This is a multi-model machine learning system that not only predicts building energy consumption but also provides actionable insights to optimize energy use. The integration with Streamlit makes it user-friendly and interactive, suitable for real-time decision-making.
+
+
 
 
 
