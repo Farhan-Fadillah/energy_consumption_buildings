@@ -41,34 +41,34 @@ This preprocessing ensures the models can learn temporal dependencies and enviro
 Here is a step-by-step flow of how the project works, from data input to prediction and recommendations:
 
 - STEP 1 : Data Collection
-  •	Collect raw data with columns: timestamp, temperature, user_activity_level, and energy_consumption.
+  - Collect raw data with columns: timestamp, temperature, user_activity_level, and energy_consumption.
   
 - STEP 2 : Data Preprocessing
-  •	Extract time features (hour, dayofweek) from timestamp.
-  •	Prepare feature matrix X and target vector y.
-  •	Split data into training and testing sets.
+  - Extract time features (hour, dayofweek) from timestamp.
+  - Prepare feature matrix X and target vector y.
+  - Split data into training and testing sets.
 
 - STEP 3 : Model Training
-  •	Train three models on the training data:
-    1. Linear Regression: A simple, interpretable model for baseline predictions.
-    2. Decision Tree Regressor: Captures non-linear relationships and interactions.
-    3. Neural Network (NN): A deep learning model with two hidden layers for complex pattern recognition.
+  - Train three models on the training data:
+    - Linear Regression: A simple, interpretable model for baseline predictions.
+    - Decision Tree Regressor: Captures non-linear relationships and interactions.
+    - Neural Network (NN): A deep learning model with two hidden layers for complex pattern recognition.
  
 - STEP 4 : Model Evaluation
-  •	Evaluate each model on the test set using Root Mean Squared Error (RMSE).
-  •	Compare model performances to select the best or allow user choice.
+  - Evaluate each model on the test set using Root Mean Squared Error (RMSE).
+  - Compare model performances to select the best or allow user choice.
 
 - STEP 5 : Real-time Prediction Interface (Streamlit App)
-  •	User inputs:
-  	1. Time (hour)
+  - User inputs:
+    1. Time (hour)
     2. Temperature
     3. User activity level
-  •	The app converts time input to hour and dayofweek.
-  •	User selects the model to use for prediction.
-  •	The selected model predicts energy consumption based on inputs.
+  - The app converts time input to hour and dayofweek.
+  - User selects the model to use for prediction.
+  - The selected model predicts energy consumption based on inputs.
 
 - STEP 6 : Alert and Recommendation System
-  •	If predicted energy consumption exceeds a threshold (e.g., 100 kWh), the system triggers an alert to provides actionable recommendations to reduce energy consumption.
+  - If predicted energy consumption exceeds a threshold (e.g., 100 kWh), the system triggers an alert to provides actionable recommendations to reduce energy consumption.
 
 # Flow Diagram
 
