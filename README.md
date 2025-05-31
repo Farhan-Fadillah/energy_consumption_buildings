@@ -80,21 +80,22 @@ The neural network is trained for 50 epochs with a batch size of 10. RMSE is cal
 # Prediction Alert and Recommendation System
 
 Alert Logic:
-•	A maximum energy consumption threshold is set (e.g., 100 kWh).
-•	If the predicted consumption exceeds this threshold, the system triggers a warning.
+- A maximum energy consumption threshold is set (e.g., 100 kWh).
+- If the predicted consumption exceeds this threshold, the system triggers a warning.
 
 Recommendations Provided:
 1.	Reduce AC temperature: Lowering the air conditioning temperature reduces energy use.
 2.	Turn off unused electronic devices: Minimizes unnecessary power consumption.
 3.	Adjust user activity levels: Encourage reducing or relocating activities to more energy-efficient areas.
 4.	Check lighting systems: Ensure lights are off in unoccupied spaces.
+
 These recommendations are designed to be practical and actionable, helping building managers or occupants reduce energy consumption effectively.
 
 # Additional Features in the Streamlit App
 
-•	Historical Energy Consumption Visualization: Users can view a time series chart of past energy consumption data to understand trends.
-•	Interactive Inputs: Time, temperature, and activity sliders allow dynamic prediction.
-•	Model Selection: Users can compare predictions from different models.
+1. Historical Energy Consumption Visualization: Users can view a time series chart of past energy consumption data to understand trends.
+2. nteractive Inputs: Time, temperature, and activity sliders allow dynamic prediction.
+3. Model Selection: Users can compare predictions from different models.
 
 # SUMMARY
 
