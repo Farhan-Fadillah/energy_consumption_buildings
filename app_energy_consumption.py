@@ -3,6 +3,7 @@ from energy_model import EnergyModel
 import datetime
 import matplotlib.pyplot as plt
 import pandas as pd
+import sys
 
 # Load model
 model = EnergyModel()
