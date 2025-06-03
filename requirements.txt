@@ -1,7 +1,6 @@
 streamlit
 pandas
 numpy
+matplotlib
 scikit-learn
-tensorflow==2.12.0
-folium
-streamlit-folium
+tensorflow
