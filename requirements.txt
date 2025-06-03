@@ -1,6 +1,7 @@
-scikit-learn
+streamlit
 pandas
 numpy
-streamlit
+scikit-learn
+tensorflow
 folium
 streamlit-folium
